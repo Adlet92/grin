@@ -25,6 +25,9 @@
     <!--  Style CSS  -->
     <link rel="stylesheet" href="assets/css/style.css?v=1.0.1">
     <script src="https://kit.fontawesome.com/c108d3ddb3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet">
+    <!-- <link rel="stylesheet" href="assets/css/style2.css"> -->
     <!-- Title -->
     <title>WPL - World Putting League</title>
 </head>
@@ -101,7 +104,92 @@
                     </div>
                 </div>
             </div>
-            <div class="our-club sec-mar-bottom">
+            <div class="app">
+                <div class="cardList">
+                  <button class="cardList__btn btn btn--left">
+                    <div class="icon">
+                      <svg>
+                        <use xlink:href="#arrow-left"></use>
+                      </svg>
+                    </div>
+                  </button>
+              
+                  <div class="cards__wrapper">
+                    <div class="card current--card">
+                      <div class="card__image">
+                        <a href="https://www.siriusxm.com/channels/siriusxm-pga-tour-radio"><img src="assets/img/club/katrek.png" alt=""></a>
+                      </div>
+                    </div>
+              
+                    <div class="card next--card">
+                      <div class="card__image">
+                        <a href="https://www.youtube.com/channel/UCBb-m0PAMAVTnW0VGoerxQQ"><img src="assets/img/club/bogeybois.png" alt=""></a>
+                      </div>
+                    </div>
+              
+                    <div class="card previous--card">
+                      <div class="card__image">
+                        <a href=""><img src="assets/img/club/kaz.png" alt=""></a>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <button class="cardList__btn btn btn--right">
+                    <div class="icon">
+                      <svg>
+                        <use xlink:href="#arrow-right"></use>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+              
+                <div class="infoList">
+                  <div class="info__wrapper">
+                    <div class="info current--info">
+                      <!-- <h1 class="text name"></h1> -->
+                      <a href="https://www.siriusxm.com/channels/siriusxm-pga-tour-radio"><h4 class="text location">Brian Katrek</h4></a>
+                      <p class="text description">Tournament Commentator and Host of PGA TOUR Radio</p>
+                    </div>
+              
+                    <div class="info next--info">
+                      <!-- <h1 class="text name">Machu Pichu</h1> -->
+                      <a href="https://www.youtube.com/channel/UCBb-m0PAMAVTnW0VGoerxQQ"><h4 class="text location">Bogey Bois</h4></a>
+                      <p class="text description">Social Media Celebrities and Special Guests</p>
+                    </div>
+              
+                    <div class="info previous--info">
+                      <!-- <h1 class="text name">Chamonix</h1> -->
+                      <a href=""><h4 class="text location">Kaz Brown</h4></a>
+                      <p class="text description">On-Air Host from Pro League Network</p>
+                    </div>
+                  </div>
+                </div>
+              
+              
+                <div class="app__bg">
+                  <div class="app__bg__image current--image">
+                    <!-- <img src="https://source.unsplash.com/Z8dtTatMVMw" alt="" /> -->
+                  </div>
+                  <div class="app__bg__image next--image">
+                    <!-- <img src="https://source.unsplash.com/9dmycbFE7mQ" alt="" /> -->
+                  </div>
+                  <div class="app__bg__image previous--image">
+                    <!-- <img src="https://source.unsplash.com/m7K4KzL5aQ8" alt="" /> -->
+                  </div>
+                </div>
+              </div>
+              <svg class="icons" style="display: none;">
+                <symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+                  <polyline points='328 112 184 256 328 400'
+                         style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+                </symbol>
+                <symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+                  <polyline points='184 112 328 256 184 400'
+                         style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+                </symbol>
+              </svg>
+              
+            <!-- <div class="our-club sec-mar-bottom">
                 <div class="container">
                     <div class="row justify-content-center">
                     </div>
@@ -150,7 +238,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- <div class="swiper-pagination"></div>
             <div class="swiper-scrollbar"></div>
         </div>
@@ -219,7 +307,6 @@
                     <div class="col-lg-6 col-xl-6">
                         <div class="about-left">
                             <div class="title">
-
                                 <h2 class="champ">Event 1, World Putting League</h2>
                                 </br>
                                 <h4>Live from the Hawaii Rumble in Myrtle Beach, South Carolina, February 27-28th, 2023.</h4>
@@ -448,6 +535,9 @@
         <script src="assets/js/masonry.pkgd.min.js"></script>
         <!-- Custom JS -->
         <script src="assets/js/custom.js"></script>
+        <script type="text/javascript" src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+        <script type="text/javascript" src="./assets/js/script2.js"></script>
 
 </body>
 

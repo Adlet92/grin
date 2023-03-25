@@ -8055,10 +8055,7 @@ ul.office-time li:last-child {
     position: relative;
     font-family: "Kanit", serif;
     font-size: calc(var(--card-width) * var(--text-size-offset, 0.2));
-    /* white-space: nowrap; */
-    /* color: #CCA643; */
     color: #fff;
-    /* width: fit-content; */
  }
   .info .description {
     --text-size-offset: 0.065;
